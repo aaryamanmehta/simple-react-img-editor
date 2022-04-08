@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+:root {
+  --first-color: rgba(0, 0, 10, 0.6);
+  --second-color: rgb(31, 30, 38);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--second-color);
+}
+
+.MainView {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.inputs {
+  font-size: 14px;
+  width: 243px;
+  padding: 40px;
+  background: var(--first-color);
+  color: rgb(207, 207, 207);
+}
+
+.inputs form {
+  margin: 30px 0;
+}
+
+input[type=range] {
+  outline: none;
+  background: rgb(207, 207, 207);
+  color: rgb(207, 207, 207);
+}
+
+input[type=range]:hover {
+  cursor: pointer;
+}
+
+input[type=number] {
+  font-size: 1.4rem;
+  width: 80px;
+  margin: 0 10px;
+  border: 0;
+  border-bottom: 1px solid grey;
+  text-align: right;
+  background: 0;
+  color: rgb(207, 207, 207);
+}
